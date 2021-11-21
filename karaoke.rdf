@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:dc="http://purl.org/dc/elements/1.1/" 
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+    <rdf:Description rdf:about="https://www.karaoke.com/rooms/">
+        <dc:rooms rdf:resource="https://www.karaoke.com/rooms/vip" />
+        <dc:rooms rdf:resource="https://www.karaoke.com/rooms/deluxe" />
+        <dc:rooms rdf:resource="https://www.karaoke.com/rooms/large" />
+        <dc:rooms rdf:resource="https://www.karaoke.com/rooms/medium" />
+        <dc:rooms rdf:resource="https://www.karaoke.com/rooms/small" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.karaoke.com/rooms/vip">
+        <dc:type>V.I.P Room</dc:type>
+        <dc:price>IDR1.300.000,00/1.5 hours</dc:price>
+        <dc:guest>4-6</dc:guest>
+        <dc:description>Rooms with exclusive design with home theater set speakers, free food, and unlimited-refill drinks (excluding wine)</dc:description>
+        <dc:image>https://drive.google.com/file/d/1_gBqZPmDRy4wSKuPeq1_Ogvoy8lB1dl-/view?usp=sharing</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.karaoke.com/rooms/deluxe">
+        <dc:type>Deluxe Room</dc:type>
+        <dc:price>IDR800.000,00/1.5 hours</dc:price>
+        <dc:guest>8-10</dc:guest>
+        <dc:description>Rooms for large amount of guests but with additional extra services with free-refill drinks (excluding wine)</dc:description>
+        <dc:image>https://drive.google.com/file/d/1GE2k3jccJZftLAUgbD7RnkK0PivmEF2P/view?usp=sharing</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.karaoke.com/rooms/large">
+        <dc:type>Large Room</dc:type>
+        <dc:price>IDR800.000,00/1.5 hours</dc:price>
+        <dc:guest>10-12</dc:guest>
+        <dc:description>Rooms specialize for big party of upto 12 guests</dc:description>
+        <dc:image>https://drive.google.com/file/d/1GjF-GHPC01aMvMViXs9-IWN3AELEmnp5/view?usp=sharing</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.karaoke.com/rooms/medium">
+        <dc:type>Medium Room</dc:type>
+        <dc:price>IDR400.000,00/1.5 hours</dc:price>
+        <dc:guest>6-8</dc:guest>
+        <dc:description>Mediocre room with exceptional facilities</dc:description>
+        <dc:image>https://drive.google.com/file/d/1l39XxFODmq1PP0NZMoEi_-A6NTgafz7s/view?usp=sharing</dc:image>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.karaoke.com/rooms/small">
+        <dc:type>Small Room</dc:type>
+        <dc:price>IDR 250.000/1.5 hours</dc:price>
+        <dc:guest>2-5</dc:guest>
+        <dc:description>Basic room</dc:description>
+        <dc:image>https://drive.google.com/file/d/1f1neJGD7KtvGm__Y243hrsVxyGYlTek7/view?usp=sharing</dc:image>
+    </rdf:Description>
+
+    
